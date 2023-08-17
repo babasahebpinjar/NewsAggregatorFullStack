@@ -56,7 +56,7 @@ def calculate_average(lst):
     else:
         return sum(lst) / len(lst)
 
-
+#
 def generateSentiment(stockName,date):
     global classifier
     print("Calculatin Sentiment for : ", stockName)
